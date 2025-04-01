@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhealthapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Meal Suggestions"
+        android:textColor="#0076BA"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inputtime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputtime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="Enter time of day (Morning)"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/suggestedmeal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/suggestedmeal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Suggested meal: "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/enterbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtime" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="143dp"
+        android:backgroundTint="#0076BA"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Enter"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/resetbutton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suggestedmeal" />
+
+    <Button
+        android:id="@+id/resetbutton2"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#EA313C"
+        android:gravity="center"
+        android:text="Reset"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterbutton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
