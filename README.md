@@ -21,6 +21,11 @@ the user the back end code cleans the EditText and allows the user to enter a ne
 1.3.	The Back End Code
 The back end code is what makes the app work without it the app would have no purpose. The back end code contains all the necessary code that makes the app functional. It is responsible for holding and displaying the information the user wants to see after their input has been made.
 
+![image alt](https://github.com/st10476957/IMAD-ASSIGNMENT-1/blob/702055af1a2a92c0623037b7b6a480dcf13c7d76/back%20end.png)
+
+1.4.	If … Else Statements
+If … else statements played a big role in the back end code as it was important to make the app work. The if … else statements made it possible it allow the use to enter different inputs and the displays different answers depending on what the users in put was. 
+
 ![image alt]()
 
 
