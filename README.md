@@ -21,6 +21,8 @@ the user the back end code cleans the EditText and allows the user to enter a ne
 1.3.	The Back End Code
 The back end code is what makes the app work without it the app would have no purpose. The back end code contains all the necessary code that makes the app functional. It is responsible for holding and displaying the information the user wants to see after their input has been made.
 
+![image alt]()
+
 
 
 
