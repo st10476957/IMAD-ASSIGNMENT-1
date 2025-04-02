@@ -15,4 +15,6 @@ an enter butter that the user clicks after they have entered the time of day the
 then displays the suggested meal in the second TextView. The second button is used as a rest button which when clicked by 
 the user the back end code cleans the EditText and allows the user to enter a new time of day.
 
+![image alt](https://github.com/st10476957/IMAD-ASSIGNMENT-1/blob/9bb19173c54c4746c8a82c68301cdca078b160d3/user%20interface.png)
+
 
