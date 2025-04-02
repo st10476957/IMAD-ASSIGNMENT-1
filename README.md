@@ -26,7 +26,7 @@ The back end code is what makes the app work without it the app would have no pu
 1.4.	If … Else Statements
 If … else statements played a big role in the back end code as it was important to make the app work. The if … else statements made it possible it allow the use to enter different inputs and the displays different answers depending on what the users in put was. 
 
-![image alt]()
+![image alt](https://github.com/st10476957/IMAD-ASSIGNMENT-1/blob/d947a681a2519c08e49abd4c2f67ddec08416994/if%20else.png)
 
 
 
